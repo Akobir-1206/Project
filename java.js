@@ -46,5 +46,5 @@ document.getElementById('decryptButton').addEventListener('click', () => {
     const qadam = parseInt(document.getElementById('step').value);
     const aslMatn = sezerShifrdanChqarish(shifrlanganMatn, qadam);
     document.getElementById('outputText').value = aslMatn;
-    isDecrypted = true; // Shifrdan chiqarilganini belgilang
-});
+    isDecrypted = true; 
+});h
